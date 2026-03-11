@@ -1,1 +1,20 @@
-public class oopsbannerapp6 { static String[] letterO() { return new String[]{" *** ","* *","* *","* *"," *** "}; } static String[] letterP() { return new String[]{" *** ","* *"," *** ","* ","* "}; } static String[] letterS() { return new String[]{" *** ","* "," *** "," *"," *** "}; } public static void main(String[] args) { String[] O1 = letterO(); String[] O2 = letterO(); String[] P = letterP(); String[] S = letterS(); for (int i = 0; i < O1.length; i++) { System.out.println(O1[i] + " " + O2[i] + " " + P[i] + " " + S[i]); } } }
+public class oopsbannerapp6 {
+    static String[] letterO() {
+        return new String[]{" *** ","* *","* *","* *"," *** "};
+    }
+    static String[] letterP() {
+        return new String[]{" *** ","* *"," *** ","* ","* "};
+    }
+    static String[] letterS() {
+        return new String[]{" *** ","* "," *** ","    *"," *** "};
+    }
+    public static void main(String[] args) {
+        String[] O1 = letterO();
+        String[] O2 = letterO();
+        String[] P = letterP();
+        String[] S = letterS();
+        for (int i = 0; i < O1.length; i++) {
+            System.out.println(O1[i] + "  " + O2[i] + "  " + P[i] + "  " + S[i]);
+        }
+    }
+}
